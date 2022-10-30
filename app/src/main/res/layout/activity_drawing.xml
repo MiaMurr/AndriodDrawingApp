@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Drawing">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:layout_below="@+id/draw_view"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="25dp"
+        android:background="#00FFFFFF"
+        android:orientation="vertical">
+
+        <com.google.android.material.slider.RangeSlider
+            android:id="@+id/rangebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_undo"
+
+                android:layout_width="13dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/Undo"
+                android:minWidth="60dp"
+                android:minHeight="30dp"
+                android:src="@drawable/undo_png_picture"
+                android:text="@string/Undo" />
+
+            <ImageButton
+                android:id="@+id/btn_save"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/Save"
+                android:src="@drawable/save" />
+
+            <ImageButton
+                android:id="@+id/btn_color"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/Color"
+                android:src="@drawable/_8846fc13fe2a78d494d6285240ec76f"
+                android:text="@string/Color" />
+
+            <ImageButton
+                android:id="@+id/btn_stroke"
+                android:layout_width="39dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/Size"
+                android:src="@drawable/size_size_chart_icon_11563073046vwqqoyfxlp"
+                android:text="@string/Size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/draw_view"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <darwingapp.com.DrawView
+        android:id="@+id/draw_view"
+        android:layout_width="388dp"
+        android:layout_height="503dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        tools:ignore="MissingClass" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">QuickSketch</string>
+
+    <string name="UserName">Username</string>
+    <string name="UserNameInput">hwk3@example.com</string>
+    <string name="Password">Password</string>
+    <string name="PasswordInput">abcdef</string>
+    <string name="ButtonLogin">LOGIN</string>
+    <string name="access">Login was not successful</string>
+    <string name="Namefilepopup">Enter a File Name Please</string>
+
+    <string name="Q1">Confused on what these buttons do? or how they function?</string>
+    <string name="Q2">Confused on menu options?</string>
+    <string name="Q3">Creator?</string>
+
+    <string name="E">Eraser</string>
+    <string name="Ser">Search For a Drawing</string>
+    <string name="view">View Saved Drawings</string>
+    <string name="H">Help</string>
+
+    <string name="menu1">When clicked you can erase your drawing(The size tool works on the eraser aswell). To get off eraser use the color select tools.</string>
+    <string name="menu2">When clicked it will bring you to a place where you can enter the name of drawing and it pulls up that perticular drawing for the user</string>
+    <string name="menu3">When clicked it will pull up all saved drawing of the users, along with their names.</string>
+    <string name="menu4">A menu to explain the functions of this app</string>
+
+    <string name="defUndo">When clicked it will undo your last stroke to the canvas</string>
+    <string name="defSave">When clicked it will prompt you to enter a file name. Once a name is enter the image is saved to your saved drawings(Click again to close)</string>
+    <string name="defColor">When clicked a menu will appear showing a array of colors. Choose a color and draw away!</string>
+    <string name="defSize">When clicked a slider will appear, allowing you to set your pen size.(Click a second time to close)</string>
+
+    <string name="AppName">QuickSketch</string>
+    <string name="Me">Mia Murrell</string>
+    <string name="V">Version 1.0</string>
+
+    <string name="Name">Name:</string>
+    <string name="app">App:</string>
+    <string name="Ver">Version:</string>
+
+    <string name="OnSuccess">Here\'s your Drawing!</string>
+    <string name="Onfailure">Unable to find that drawing(Please be sure to check your capitalization)</string>
+
+    <string name="Explain">Please Enter the name of the drawing your looking for:</string>
+    <string name="FileName">Enter Name Here!</string>
+    <string name="Find">FIND</string>
+
+    <string name="Undo">Undobtn</string>
+    <string name="Save">Savebtn</string>
+    <string name="Color">Colors</string>
+    <string name="Size">Sizebtn</string>
+
+    <string name="Welcome">Welcome to QuickSketch!</string>
+</resources>

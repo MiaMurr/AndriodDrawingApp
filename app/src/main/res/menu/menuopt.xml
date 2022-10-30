@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuitems"
+        android:title="More Options"
+        app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/Erase_menuitem"
+            android:title="Eraser" />
+
+        <item
+        android:id="@+id/search_menuitem"
+        android:title="Search For a Drawing" />
+        <item
+        android:id="@+id/View_menuitem"
+        android:title="View Saved Drawings" />
+    <item
+        android:id="@+id/Help_menuitem"
+        android:title="Help"/>
+
+
+</menu>
